@@ -1,0 +1,9 @@
+Fromatechnicalstandpoint,theBitcoinledgercanbethoughtofasastatetransitionsystem,
+wherethereis a"state" consisting of the ownership
+statusofallexistingbitcoinsanda"statetransitionfunction"thattakesastateandatrans
+actionandoutputsanewstatewhichistheresult.Inastandardbankingsystem,for
+example,thestateisabalancesheet,atransactionisarequesttomove$XfromAtoB,andthesta
+te transition function reduces the value in A's account
+by$XandincreasesthevalueinB'saccountby$X.IfA's
+accounthaslessthan$Xinthefirstplace,thestatetransitionfunctionreturnsanerror.Hen
+ce,onecan formallydefine
