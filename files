@@ -1,0 +1,15 @@
+Step3:
+openfileexplorer
+1. Opentheextractedfileandclickonthefolder.
+2. Opensrc,andsearchforutiles.
+3. Youcanseethefrontendfiles.Selectallthethingsatthetop in the
+search bar byclicking alt+ A. Search for cmd
+4. Opencmdenter
+commandsnpm
+install
+npm
+bootstrap
+npmstart
+5. Itwillinstallallthepackagesandaftercompletingitwill open
+{LOCALHOSTIP
+ADDRESS}copytheaddressandopenittoch
