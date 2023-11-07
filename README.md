@@ -1,1 +1,13 @@
 # Ethereum-Decentralised-Identity-smart-contract
+Theconceptofdecentralized digital currency, as well as alternative applications
+like property registries, hasbeenaroundfordecades.Theanonymouse-cashprotocolsofthe
+1980s and the 1990s, mostly reliant on a cryptographic primitive known as Chaumian
+blinding, provided a
+currencywithahighdegreeofprivacy,buttheprotocolslargelyfailedtogaintractionbecauseof
+theirrelianceonacentralized intermediary.In1998,WeiDai'sb-
+moneybecamethefirstproposaltointroducetheideaofcreating
+moneythroughsolvingcomputationalpuzzlesaswellasdecentralizedconsensus,buttheproposal
+wasscantondetailsastohowdecentralizedconsensuscould actually be implemented. In
+2005, Hal
+Finneyintroducedaconceptof"reusableproofsofwork",asystemwhichusesideasfromb-money
+togetherwithAdamBack'scomputationallydifficultHashcashpuzzlestocreateaconceptforacry
