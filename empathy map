@@ -1,0 +1,19 @@
+TheEthereumblockchainisinmanywayssimilartotheBitcoinblock
+chain,althoughitdoeshavesome differences. The main
+difference between Ethereum and Bitcoin with regard to
+the blockchain architecture is
+that,unlikeBitcoin,Ethereumblockscontainacopyofboth the
+transaction list and the most recent state. Aside from
+that, two other values, the block number and the
+difficulty, are also stored in the block.
+Theblockvalidation algorithm in Ethereum is as follows:
+Checkifthepreviousblockreferencedexistsandisvalid.
+Checkthatthetimestampoftheblockis greater than that of
+the referenced previous block and less than 15 minutes
+into the future
+Check that the block number, difficulty,
+transactionroot,unclerootandgaslimit(variouslow-level
+Ethereum-specific concepts) are valid.
+Checkthattheproofofworkontheblockisvalid.
+LetS[0]betheSTATE_ROOTofthepreviousblock.
+LetTXbetheblock'stransactionlist,withntransaction
