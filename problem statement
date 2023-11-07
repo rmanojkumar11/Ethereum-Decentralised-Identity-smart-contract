@@ -1,0 +1,12 @@
+Thealgorithmforcheckingifablockisvalid,expressedinthispar
+adigm,isasfollows:
+Checkifthepreviousblockreferencedbytheblockexistsandisval
+id
+Check that the timestamp of the block is greater than
+that of thepreviousblock[2] andlessthan2 hours into the
+future.
+Checkthattheproofofworkontheblockisvalid.
+LetS[0]bethestateattheendofthepreviousblock.
+SupposeTXistheblock'stransactionlistwithntransactions.For
+alliin0...n-1,setS[i+1]= APPLY(S[i],TX[i]) If any
+application return
