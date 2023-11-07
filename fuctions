@@ -1,0 +1,13 @@
+Check if the transaction is well-formed (ie. has the
+right number of values), thesignatureisvalid, and the nonce
+matches the nonce in the sender's account. If not, return an
+error.
+Calculate the transaction fee
+asSTARTGAS*GASPRICE,anddeterminethesendingaddressfrom the
+signature. Subtract the fee from the sender's account
+balance and increment the sender's nonce. If there is not
+enough balance to spend, return an error.
+InitializeGAS = STARTGAS,and take off a certain quantity
+of gas per byte to pay for the bytes inthetransaction.
+Transfer the transaction value from the sender's
+accounttothereceivingaccount.Ifthereceiving account does 
