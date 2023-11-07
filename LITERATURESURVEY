@@ -1,0 +1,12 @@
+The first half of the first step prevents transaction senders from
+spending coins that do not exist, the second
+halfofthefirststeppreventstransactionsendersfromspendingotherpeople's
+coins, and the second step enforces conservation of value. In
+ordertousethisforpayment,theprotocolisasfollows.SupposeAlicewants
+tosend11.7BTCtoBob.First,AlicewilllookforasetofavailableUTXOthatsheownsth
+attotalsuptoatleast
+11.7BTC.Realistically,Alicewillnotbeabletogetexactly11.7BTC;saythatthesma
+llestshecangetis 6+4+2=12. She
+thencreatesatransactionwiththosethreeinputsandtwooutputs.Thefirstoutputwi
+llbe11.7 BTC with Bob's address as its owner, and the second output will
+be the remaining0.3BTC"change",withthe owner being Alice herself.
